@@ -2,7 +2,7 @@ import time
 import praw
 
 # CONFIG START
-user_agent = ("Find deleted 1.0 by /u/?")
+user_agent = ("Find deleted 0.3 by /u/?")
 checktop = 100			# check top 100
 insubreddit = "all"		# subreddit
 checkevery = 10 		# 10s
@@ -14,7 +14,7 @@ print("Logging in...")
 lastrun = []
 allhot = []
 moreallhot = []
-firstround = not True
+firstround = False
 
 while True:
 	print("Waiting...")
